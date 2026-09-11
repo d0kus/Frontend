@@ -1,0 +1,172 @@
+/* =====================================================
+   Additions by Anuar Muratbay — for booking.html and about.html
+   Paste this at the BOTTOM of the shared css/style.css file.
+   If we already have colors defined somewhere near the top
+   (in :root), change the values below to match those instead
+   of the ones I picked, so everything stays consistent.
+   ===================================================== */
+
+:root {
+  --cinema-red: #c81d25;
+  --cinema-gold: #f4b400;
+}
+
+/* ---------- booking.html ---------- */
+
+.booking-hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.booking-hero img {
+  width: 100%;
+  max-width: 700px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.booking-steps {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  padding: 0 20px;
+}
+
+.booking-steps li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+#booking-form-section {
+  max-width: 600px;
+  margin: 0 auto 60px auto;
+  padding: 30px 25px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.booking-form .form-group {
+  margin-bottom: 18px;
+}
+
+.booking-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  outline: none;
+  border-color: var(--cinema-red);
+}
+
+.radio-group label {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+}
+
+.btn-submit {
+  background-color: var(--cinema-red);
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #a3181e;
+}
+
+/* ---------- about.html ---------- */
+
+.about-hero,
+.about-values,
+.team-section,
+.contact-section,
+.author-bio {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.about-values ul {
+  text-align: left;
+  max-width: 500px;
+  margin: 15px auto 0 auto;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.team-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 220px;
+}
+
+.circle-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.team-role {
+  color: var(--cinema-red);
+  font-weight: 600;
+  margin: 4px 0 10px 0;
+}
+
+.contact-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.contact-section th,
+.contact-section td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.contact-section th {
+  background-color: var(--cinema-red);
+  color: #fff;
+}
+
+.author-bio .circle-photo {
+  margin-top: 15px;
+}
