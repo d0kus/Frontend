@@ -106,22 +106,36 @@ p {
   border-collapse: collapse;
   margin: 20px 0;
   background-color: #222222;
+  table-layout: auto;
 }
 
 #schedule-table th, 
 #schedule-table td {
-  padding: 12px;
+  padding: 16px 20px;
   border: 1px solid #333333;
   text-align: left;
+  vertical-align: middle;
 }
 
 #schedule-table th {
   background-color: #2e2e2e;
   color: #ff6b00;
 }
-
+#schedule-table td {
+  font-size: 15px;         
+       
+}
 #schedule-table tr:hover {
   background-color: #2a2a2a;
+}
+
+.table-poster {
+  width: 175px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ff6b00;
+  display: block;
 }
 
 /* ==================== 5. registration form ==================== */
@@ -317,18 +331,6 @@ footer {
   margin-right: 8px;
 }
 
-/* =====================================================
-   Additions by Anuar Muratbay — for booking.html and about.html
-   Paste this at the BOTTOM of the shared css/style.css file.
-   If we already have colors defined somewhere near the top
-   (in :root), change the values below to match those instead
-   of the ones I picked, so everything stays consistent.
-   ===================================================== */
-
-:root {
-  --cinema-red: #c81d25;
-  --cinema-gold: #f4b400;
-}
 
 /* ---------- booking.html ---------- */
 
