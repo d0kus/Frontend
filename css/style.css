@@ -334,6 +334,12 @@ footer {
 
 /* ---------- booking.html ---------- */
 
+:root {
+  --cinema-red: #c81d25;
+  --cinema-gold: #f4b400;
+}
+
+
 .booking-hero {
   text-align: center;
   padding: 40px 20px;
