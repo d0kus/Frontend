@@ -1,4 +1,4 @@
-/* ==================== 1. colorrs ==================== */
+/* 1. colors */
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ p {
   margin-bottom: 15px;
 }
 
-/* ==================== 2. navigation menu ==================== */
+/* 2. navigation menu */
 #main-nav {
   background-color: #000000;
   padding: 15px 30px;
@@ -63,7 +63,7 @@ p {
   background-color: #ff6b00;
 }
 
-/* ==================== 3. buttons and movie cards ==================== */
+/*  3. buttons and movie cards */
 .btn {
   background-color: #ff6b00;
   color: #ffffff;
@@ -100,7 +100,7 @@ p {
   margin-bottom: 10px;
 }
 
-/* ==================== 4. Schedule table ==================== */
+/* 4. Schedule table*/
 #schedule-table {
   width: 100%;
   border-collapse: collapse;
@@ -138,7 +138,7 @@ p {
   display: block;
 }
 
-/* ==================== 5. registration form ==================== */
+/* 5. registration form */
 #booking-form {
   background-color: #222222;
   padding: 30px;
@@ -180,7 +180,7 @@ p {
   resize: vertical;
 }
 
-/* ==================== 6. Photo, team ==================== */
+/* 6. Photo, team */
 .avatar-circle {
   width: 130px;
   height: 130px;
@@ -199,7 +199,7 @@ p {
   width: 250px;
 }
 
-/* ==================== 7. footer ==================== */
+/*7. footer  */
 footer {
   background-color: #000000;
   text-align: center;
@@ -209,8 +209,7 @@ footer {
   color: #888888;
 }
 
-/* ==================== 8. Hall card ==================== */
-/* Карточки залов */
+/* 8. Hall card  */
 .hall-card {
   display: flex;
   background-color: #1a1a1a;
@@ -256,7 +255,7 @@ footer {
   margin-bottom: 5px;
 }
 
-/* Блок автора страницы */
+
 .author-section {
   margin-top: 50px;
 }
@@ -283,7 +282,7 @@ footer {
   margin-bottom: 0;
 }
 
-/* ==================== 9. Hero block ==================== */
+/*  9. Hero bloc */
 
 .hero-block {
   display: flex;
@@ -332,7 +331,7 @@ footer {
 }
 
 
-/* ---------- booking.html ---------- */
+/*  booking.html */
 
 :root {
   --cinema-red: #c81d25;
@@ -427,7 +426,7 @@ footer {
   background-color: #a3181e;
 }
 
-/* ---------- about.html ---------- */
+/* about.html */
 
 .about-hero,
 .about-values,
